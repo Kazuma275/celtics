@@ -1,0 +1,36 @@
+
+/**************************************************/
+/*         Style sheet for Celtics web site       */
+/*         author: Sergio Ramos                   */
+/*         version: 1.0                           */
+/*         comments: class project 2023-24        */
+/**************************************************/
+
+/* cuando quiero usar una tipografía y asegurarme de que se verá correctamente, 
+suministro también con la página el archivo de la fuente, que será .ttf o .otf */
+/* 1- ahora enlazo el archivo descargado */
+/* 2- utilizar el nombre de la font-family donde quiera usarlo */
+
+@font-face { /* esto no es un selector, es un enlace */
+    font-family: celtics;
+    src: url(../font/FontsFree-Net-Proxima-Nova-Bold.otf);
+}
+
+@font-face {
+    font-family: textonormal;
+    src: url(../font/Vintage\ Browner.ttf);
+}
+
+body {
+    background-color: pink;
+    margin: 0;
+    padding: 0; /* para desactivar el espacio de desaparación por defecto */
+    font-family: textonormal;
+}
+
+#wrapped {
+    width: 80%; /* ancho fijado al 80% */
+    margin: auto; /* centrado automático */
+    background: linear-gradient(to right, black )
+
+}
