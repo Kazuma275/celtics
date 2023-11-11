@@ -6,12 +6,8 @@
 /*         comments: class project 2023-24        */
 /**************************************************/
 
-/* cuando quiero usar una tipografía y asegurarme de que se verá correctamente, 
-suministro también con la página el archivo de la fuente, que será .ttf o .otf */
-/* 1- ahora enlazo el archivo descargado */
-/* 2- utilizar el nombre de la font-family donde quiera usarlo */
 
-@font-face { /* esto no es un selector, es un enlace */
+@font-face {
     font-family: celtics;
     src: url(../font/FontsFree-Net-Proxima-Nova-Bold.otf);
 }
@@ -21,16 +17,124 @@ suministro también con la página el archivo de la fuente, que será .ttf o .ot
     src: url(../font/Vintage\ Browner.ttf);
 }
 
+* {
+    box-sizing: border-box;
+}
+
+/* paleta de colores */
+#008346
+black
+white
+
+/* Body */
 body {
-    background-color: pink;
+    background-color: #008346;
     margin: 0;
-    padding: 0; /* para desactivar el espacio de desaparación por defecto */
+    padding: 0;
     font-family: textonormal;
 }
 
+/* Wrapped */
 #wrapped {
-    width: 80%; /* ancho fijado al 80% */
-    margin: auto; /* centrado automático */
+    width: 80%;
+    margin: auto;
     background: linear-gradient(to right, black )
+}
 
+/* Footer */
+footer{
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    background-color: #008346;
+}
+
+/* Título */
+h1{
+    font-family: celtics;
+    font: bolder;
+    color: #008346;
+}
+
+/* Párrafo */
+p{
+    font-family: textonormal;
+
+}
+
+/* Navegación */
+nav {
+    background-color: #008346;
+    text-align: center;
+}
+
+
+/****************** Hero Section *******************/
+
+#hero {
+    background-image: url(../img/cabezera.jpg);
+    /*background-size: cover;*/
+    position: relative;
+    background-position: center;
+	width: 100%;
+	height: 100%;
+    /*object-fit: cover;*/
+    
+}
+
+#menunavegacion {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0%;
+}
+
+#menunavegacion li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#menunavegacion a {
+    text-decoration: none;
+    color: white;
+    font-family: celtics;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+/* Cambia el color al pasar el mouse por encima */
+#menunavegacion a:hover {
+    color: black;
+}
+
+/*li{
+    padding: 0 150px;
+    display: inline;
+    position: sticky;
+    font-size: 12px;
+}*/
+
+ol{
+    font-family: celtics;
+}
+
+img{
+    background-color: #008346;
+}
+
+#hero button {
+    font-weight: bold;
+    border: none;
+    margin-left: 50%;
+    margin-top: 25%;
+    padding: 5px 10px;
+    border-radius: 50%;
+    /* margin-top: 75vh;
+    margin-left: 40%; */ /* esto es muy cutre */
+    position: relative;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 120px;
+    height: 120px;  
+    background-color: #008346   ;
 }
