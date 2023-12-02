@@ -6,8 +6,15 @@
     
     <title>Celtics - Tribute</title>
 	
+	<!-- css -->
     <link rel="stylesheet" href="./css/celtics.css">
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <!-- favicon -->
+	<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+	<!--  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- javascript -->
+	<script src="./js/celtics.js"></script>
+
 </head>
 <body>
     
@@ -15,45 +22,126 @@
         
 		<!--  Navegación -->
 		<nav>
-            <ul id="menunavegacion">
-                <li><a href="#introduction">Introducción</a></li>
-                <li><a href="#contact">Contacto</a></li>
-                <li><a href="#shopping">Tienda</a></li>
-            </ul>
+            <div class="topnav" id="myTopnav">
+				<!-- # a secas es arriba del todo -->
+				<a href="#" class="active">Home</a>
+				<a href="#intro">Introduccion</a>
+				<a href="#trophies">Trophies</a>
+				<a href="#gallery">Gallery</a>
+				<a href="#contact">Contact</a>
+				<a href="#knowmore">Know More</a>
+				<!-- Javascript:void(0) desactiva el comportamiento del vínculo -->
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
         </nav>
-    
+
+		<!-- arrow up posicionada en la esquina inferior derecha -->
+		<a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
 		<!--  Sección "Hero" -->
 		<section id="hero">
-            <button>Who dares?</button>
+            <a href="#trophies"><button>Try me</button></a>
 		</section>
 		
 		<!--  Sección "Introducción" -->
-		<section>
-			<h1>Introducción</h1>
-			<p>Welcome to our official web page of Celtics Team</p>
+		<section id="intro">
+
+			<!-- aquí podría poner un título o lo que fuera independiente de las columnas -->
+
+			<div class="grid-2">
+				<div class="col-2">
+					<h1 class="title">Introduction</h1>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quo minus natus repudiandae praesentium perspiciatis itaque ipsam sint, veritatis labore a aspernatur, asperiores, nesciunt porro pariatur voluptatum culpa error et?...</p>
+					<button>Read more</button>
+				</div>
+				<div class="col-2">
+					<img id="introimg" src="./img/celtics.png" alt="Foto guay">
+				</div>
+			</div>
 		</section>
 
-		<!--  Sección "Contact" -->
-		<section>
-			<h1>Contact</h1>
+		<section id="trophies">
+			<h1 class="titles">Trophies</h1>
+			<div class="grid-4">
+				<div class="col-4">
+					<!-- vamos a hacer una card interna -->
+					<div class="card">
+						<img src="./img/trophie1.png" alt="">
+						<h3>Session 1</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem non voluptatibus cumque sapiente provident fuga unde culpa dolore repudiandae rerum. </p>
+						<!-- Vínculo a otra página de mi site -->
+						<a href="index.html"><button class="button">Read more</button></a>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="card">
+						<img src="./img/trophie2.png" alt="">
+						<h3>Session 2</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem non voluptatibus cumque sapiente provident fuga unde culpa dolore repudiandae rerum. </p>
+						<!-- Externa -->
+						<a href="https://www.netflix.com/es" target="_blank"><button class="button">Read more</button></a>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="card">
+						<img src="./img/session1.png" alt="">
+						<h3>Session 3</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem non voluptatibus cumque sapiente provident fuga unde culpa dolore repudiandae rerum. </p>
+						<button class="button">Read more</button>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="card">
+						<img src="./img/session1.png" alt="">
+						<h3>Session 4</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem non voluptatibus cumque sapiente provident fuga unde culpa dolore repudiandae rerum. </p>
+						<button class="button">Read more</button>
+					</div>
+				</div>
+			</div>
+	
+		</section>
+
+		<!--  Sección "Gallery" -->
+		<section id = "gallery">
+			<div class ="col-2">
+				<div class ="card">
+			<h1>Gallery</h1>
 			<p>We are still working on our contact page. Come back soon please.</p>
+			<img src="./img/session2.jpg">
+				</div>
+			</div>
 		</section>
 
 		<!--  Sección "Who we are" -->
-		<section>
+		<section id ="">
 			<h1>Who we are</h1>
 			<p>The Boston Celtics are a professional basketball team in the United States based in Boston, Massachusetts. They compete in the Atlantic Division of the Eastern Conference of the National Basketball Association (NBA) and play their home games at the TD Garden.
 			</p>
 		</section>
     
-		<!--  Sección "Shopping" -->
-		<section>
-			<h1>Shopping</h1>
+		<!--  Sección "Know More" -->
+		<section id="knowmore">
+			<h1>Know More</h1>
 			<p>We are still working on our store. Come back soon please.</p>
 		</section>
 	
 		<!--  Sección "Footer" -->
-		<footer>Celtics 1946-2023. All rights reserved &copy; </footer>
+		<footer>
+			<div class="grid-3d">
+				<div class="col-4">
+					algo
+				</div>
+				<div class="col-4">
+					algo
+				</div>
+				<div class="col-2">
+					algo
+				</div>
+			</div>
+		</footer>
 		
     </div>
 	
