@@ -41,6 +41,14 @@ body {
     padding-top: 6vh;
 }
 
+.title {
+    padding-bottom: 15px;
+}
+
+.titles {
+    padding-left: 35px;
+}
+
 /* Wrapped */
 #wrapped {
     width: 100%; /* ancho fijado al 100% MOBILE FIRST */
@@ -87,12 +95,79 @@ footer{
     background-color: #008346;
 }
 
+footer .fa {
+    padding: 12px 10px;
+    font-size: 1.5em;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Social Media */
+
+footer .fa-facebook {
+    background-color: #3B5998;
+}
+
+footer .fa-twitter {
+    background-color: #55ACEE;
+    color: white;
+}
+
+footer .fa-instagram {
+    background-color: #E1306C;
+    color: white;
+}
+
+footer .fa-linkedin {
+    background-color: #0A66C2;
+    color: white;
+}
+
+#siteoficial {
+    color: black;
+    padding: 20px;
+}
+
+footer .container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 75%; /* 4:3 Aspect Ratio */
+    margin: 2%;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+
+footer .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/****************** estilo del video  ************/
+
+
 /* Título */
 h1{
     font-family: celtics;
     font: bolder;
     color: black;
+    font-size: 2em;
 }
+
 
 /* Párrafo */
 p{
@@ -129,7 +204,7 @@ nav{
     z-index: 99;
 }
 
-.fa fa-arrow-up{
+/* .fa fa-arrow-up{
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -140,8 +215,9 @@ nav{
 a .fa fa-arrow-up {
     color: white;
 }
+ */
 
-/* Add a black background color to the top navigation */
+ /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -190,8 +266,18 @@ img{
     background-color: #008346;
 }
 
+#trophie1{
+    background-color: white;
+}
+
 html{
     scroll-behavior: smooth;
+}
+
+/* Who we are */
+
+#are1 {
+    background-color: white;
 }
 
 #hero button {
@@ -230,7 +316,7 @@ html{
 
 
 #introimg {
-    width: 80%;
+    width: 80% ;
     display: block;
     margin: auto;
 }
@@ -245,10 +331,204 @@ html{
     grid-template-columns: 100%; /* MOBILE FIRST */
 }
 
+/************* accordion  ****************/
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+  /* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+/****************** predictions  *******************/
+
+*, *::before, *::after {
+padding: 0;
+/*margin: 0 auto;*/
+box-sizing: border-box;
+}
+
+#predictions {
+font-family: 'Open Sans', sans-serif;
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 3em 1em;
+}
+
+.accordion {
+max-width: 90%;
+margin: auto;
+text-align: left;
+}
+
+article {
+border: 1px solid #fff;
+padding: 1em;
+margin: 1em auto;
+}
+
+input[type="radio"] {
+appearance: none;
+position: fixed;
+top: -100vh; left: -100vh;
+
+& ~ div {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+&:checked ~ div {
+    max-height: 200px;
+}
+}
+
+/* Who we are */
+
+#whoweare {
+    margin-top: -30px;
+    padding-top: 6vh;
+    padding-left: 35px;
+    padding-bottom: 15px;
+}
+
+/* Gallery */
+
+/* css-tricks */
+
+#gallery {
+	width: 90%;
+	margin: 1em auto;
+}
+#gallery h1{
+	text-align: center;
+	font-size: 2em;
+    width:100%;
+}
+
+#gallery .imgcontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#gallery img {
+	width: 24%;
+	margin: 0.5%;
+}
+
+
+
+
+
 /***************************** footer ***********************/
 
 footer{
     background-color: white;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+footer a p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    border: hidden;
+    padding-left: 10px;
+    transition: 0.2s;
+}
+
+footer h3 {
+    margin: 20px 0px;
+}
+
+footer a p:hover {
+    color: gray;
+    border-left: 3px solid white;
+}
+
+/* modal box */
+/* The Modal (background) */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+  /* Modal Content/Box */
+.modal-content {
+    background-color: #008346;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+  /* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myBtn {
+    cursor: pointer;
+}
+
+.modal-content {
+    color: black;
+    background-color: #008346;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    margin: 80px auto 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+
+@media only screen and (max-width: 767px){
+    .modal-content{ width: 95% !important; }
 }
 
 .grid-3d {
@@ -257,7 +537,12 @@ footer{
 }
 
 .col-4 {
-    padding: 4%;
+    padding: 5%;
+}
+.menufooter a {
+    display: block;
+    font-size: 1.5em;
+    padding: 2.5em 0;
 }
 
 /************************** estilo de la card dentro del grid-4  ***************/
@@ -270,11 +555,15 @@ footer{
 }
 
 .card:hover {
-    box-shadow: 3px 3px 3px #808080;
+    box-shadow: 8px 8px 8px #898989;
 }
 
 .card img {
     width: 100%;
+}
+
+.card p {
+    text-align: justify;
 }
 
 
@@ -329,4 +618,20 @@ footer{
     .grid-4 {
         grid-template-columns: auto auto auto auto;
     }
+}
+@media only screen and (max-width: 900px) {
+
+	#gallery img {
+		width: 32.33333333333333%;	
+	}
+}
+@media only screen and (max-width: 750px) {
+	#gallery img {
+		width: 49%;	
+	}
+}
+@media only screen and (max-width: 600px) {
+	#gallery img {
+		width: 98%;	
+	}
 }
