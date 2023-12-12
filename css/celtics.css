@@ -48,8 +48,9 @@ body {
     padding-left: 35px;
 }
 
-.title {
+.titleintro {
     padding-bottom: 15px;
+    padding-left: 35px;
 }
 
 /* Wrapped */
@@ -325,6 +326,13 @@ html{
     width: 80% ;
     display: block;
     margin: auto;
+    margin-top: 12.5%;
+}
+
+.introimgtitle {
+    padding-bottom: 15px;
+    padding-left: 35px;
+    text-align: center;
 }
 
 /********************** SESSIONS SECTION (GRID DE 4) *******************/
@@ -414,8 +422,12 @@ top: -100vh; left: -100vh;
 #coachingstaff {
     margin-top: -30px;
     padding-top: 6vh;
-    padding-left: 35px;
+    padding-left: 0;
     padding-bottom: 15px;
+}
+
+#coachingstaff h1 {
+    padding-left: 35px;
 }
 
 /* Gallery */
@@ -574,6 +586,11 @@ footer a p:hover {
     text-align: justify;
 }
 
+.col-2 .card {
+    margin-bottom: 30px;
+    padding: 2%;
+}
+
 /************** estilo de la card para trophies *************/
 
 
@@ -625,7 +642,7 @@ footer a p:hover {
     }
 }
 
-@media only screen and (width>650px) { /* TABLET  */
+@media only screen and (width>450px) { /* TABLET  */
     #wrapper {
         width: 80%;
     }
@@ -651,7 +668,7 @@ footer a p:hover {
 @media only screen and (max-width: 900px) {
 
 	#gallery img {
-		width: 32.33333333333333%;	
+		width: 32.33333333333333%;
 	}
 }
 @media only screen and (max-width: 750px) {
