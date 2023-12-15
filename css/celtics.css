@@ -556,12 +556,14 @@ footer a p:hover {
 }
 
 .col-4 {
-    padding: 5%;
+    padding: 25%;
 }
+
 .menufooter a {
     display: block;
     font-size: 1.5em;
-    padding: 2em 0;
+    padding: 1.7em 0;
+    margin-top: -15px;
 }
 
 /************************** estilo de la card dentro del grid-4  ***************/
@@ -642,7 +644,7 @@ footer a p:hover {
     }
 }
 
-@media only screen and (width>450px) { /* TABLET  */
+@media only screen and (width>410px) { /* TABLET  */
     #wrapper {
         width: 80%;
     }
