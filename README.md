@@ -30,13 +30,13 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="./img/cabecera.jpg" alt="imagen de hero section" style="width:50%">
+<img src="./bm-readme/intro.png" alt="imagen de hero section" style="width:50%">
 <p>He utilizado una imagen de fondo tomada de .... que se adapta fácilmente a diferentes dispositivos....<br>
 Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
 (una breve explicación)</p>
 
 <h3>Introducción</h3>
-<img src="./bm-readme/cabecera.jpg" alt="imagen de hero section" style="width:50%">
+<img src="./bm-readme/intro.png" alt="imagen de hero section" style="width:50%">
 <p>He dispuesto en un grid de 2 columnas....</p>
 
 .......
@@ -46,7 +46,17 @@ Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
 <p>y aqui pongo <b>lo que quiera</b></p>
 
 <h3>Footer</h3>
-<p>breve explicación </p>
+<h4>Menú vertical izquierdo</h4>
+<p>En el footer he incluido un apartado de redes sociales (facebook, twitter, instagram, linkedin), los cuales al hacer click encima de sus respectivas imágenes le llevará a las redes sociales oficiales del equipo de baloncesto. </p>
+<p>Además he incluido un apartado denomidado "Site oficial" que le llevará directamente a la página web oficial.</p>
+<p>Por último he añadido un apartado de créditos que funciona con una ventana emergente (modal).</p>
+
+<h4>Menú vertical derecho</h4>
+<p>He implementado un pequeño menú vertical con todas los apartados de la página web por si es que te has quedado con más ganas de echarle un vistazo.</p>
+
+<h4>Localización</h4>
+<p>He añadido un enlace directo al estadio del equipo de baloncesto por si es que te da por querer ir a ver unos de sus emocionantes partidos.</p>
+
 
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
