@@ -37,7 +37,7 @@ Encima de la imagen he colocado un botón que le lleva al usuario directamente a
 <br>
 
 <h2>Introducción</h2>
-<img src="./img/accordion.PNG" alt="imagen del accordion" style="width:25%" img src="./img/celtics.png" alt="imagen del escudo" style="width:25%">
+<img src="./img/accordion.PNG" alt="imagen del accordion" style="width:25%"> <img src="./img/celtics.png" alt="imagen del escudo" style="width:25%">
 <p>He dispuesto en un grid de 2 columnas, en una he puesto un accordion, y en la otra la imagen del escudo del equipo.</p>
 
 <br>
