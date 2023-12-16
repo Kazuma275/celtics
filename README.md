@@ -29,7 +29,7 @@
   <li>Footer </li>
 </ul>
 
-<h3>Hero Section</h3>
+<h2>Hero Section</h2>
 <img src="./img/cabecera.jpg" alt="imagen de la hero section" style="width:50%">
 <p>He utilizado una imagen de fondo tomada de una aportación de un fan, tiene una buena resolución y encaja perfectamente con la temática de mi página web.<br>
 Encima de la imagen he colocado un botón que <br>
@@ -37,33 +37,33 @@ Encima de la imagen he colocado un botón que <br>
 
 <br>
 
-<h3>Introducción</h3>
+<h2>Introducción</h2>
 <img src="./img/accordion.PNG" alt="imagen del accordion" style="width:25%"> <img src="./img/celtics.png" alt="imagen del escudo" style="width:25%">
 <p>He dispuesto en un grid de 2 columnas, en una he puesto un accordion, y en la otra la imagen del escudo del equipo.</p>
 
 <br>
 
-<h3>Trophies</h3>
+<h2>Trophies</h2>
 <p>He añadido los trofeos más relevantes para mí del equipo en un grid de 4 columnas y dentro sus respectivas cards, con su título y su pequeña descripción</p>
 
 <br>
 
-<h3> Video </h3>
+<h2> Video </h2>
 <p>He añadido un vídeo de presentación del club de esta temporada. Está dentro de una card </p>
 
 <br>
 
-<h3> Coaching Staff </h3>
+<h2> Coaching Staff </h2>
 <p>He hecho un apartado parecido como el de trophies. Un grid de 4 columnas y cards para cada miembro del staff</p>
 
 <br>
 
-<h3> Gallery </h3>
+<h2> Gallery </h2>
 <p>He añadido una galería mediante uso de clases y a estes le he añadido la propiedad flex.</p>
 
 <br>
 
-<h3>Footer</h3>
+<h2>Footer</h2>
 <h4>Menú vertical izquierdo</h4>
 <p>En el footer he incluido un apartado de redes sociales (facebook, twitter, instagram, linkedin), los cuales al hacer click encima de sus respectivas imágenes le llevará a las redes sociales oficiales del equipo de baloncesto. Además he incluido un apartado denomidado "Site oficial" que le llevará directamente a la página web oficial. Por último he añadido un apartado de créditos que funciona con una ventana emergente (modal).</p>
 
