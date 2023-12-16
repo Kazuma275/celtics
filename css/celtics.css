@@ -559,10 +559,14 @@ footer a p:hover {
     padding: 5%;
 }
 
+.verticalizquierda {
+    padding: 9.5%;
+}
+
 .menufooter a {
     display: block;
     font-size: 1.5em;
-    padding: 1.7em 0;
+    padding: 2.2em 0;
     margin-top: -15px;
 }
 
