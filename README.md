@@ -50,18 +50,30 @@ Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
 
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
-<p>.....</p>
+<p> 
+    #008346
+    black
+    white 
+</p>
 <h3>Tipografías</h3>
-<p>.....</p>
+<p>
+  Texto normal -> Vintage Browner
+  Títulos      -> Net Proxima Nova Bold
+</p>
+
 <h3>Imágenes</h3>
-<p>.....</p>
+<p>
+  
+</p>
 <h3>Videos</h3>
-<p>.....</p>
+<p>
+  
+</p>
 ...................
 <h2 id="snippets">Code snippets</h2>
 <p>He utilizado los siguientes:</p>
 <ul>
-  <li>Barra de navegación: tomada de w3Schools "How to" (poner vínculo)</li>
-  <li>Accordion: ..............</li>
+  <li>Barra de navegación: tomada de w3Schools "How to" https://www.w3schools.com/howto/howto_js_topnav.asp </li>
+  <li>Accordion: tomado de freefronted 40 + CSS Accordions https://freefrontend.com/css-accordions/ </li>
   <li>..........</li>
 </ul>
