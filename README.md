@@ -40,12 +40,16 @@ Encima de la imagen he colocado un botón que <br>
 <p>He dispuesto en un grid de 2 columnas, en una he puesto un accordion, y en la otra la imagen del escudo del equipo.</p>
 
 <h3>Trophies</h3>
+<p>He añadido los trofeos más relevantes para mí del equipo en un grid de 4 columnas y dentro sus respectivas cards, con su título y su pequeña descripción</p>
 
+<h3> Video </h3>
+<p>He añadido un vídeo de presentación del club de esta temporada. Está dentro de una card </p>
 
+<h3> Coaching Staff </h3>
+<p>He hecho un apartado parecido como el de trophies. Un grid de 4 columnas y cards para cada miembro del staff</p>
 
-
-
-<p>y aqui pongo <b>lo que quiera</b></p>
+<h3> Gallery </h3>
+<p>He añadido una galería mediante uso de clases y a estes le he añadido la propiedad flex.</p>
 
 <h3>Footer</h3>
 <h4>Menú vertical izquierdo</h4>
