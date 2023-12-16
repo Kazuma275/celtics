@@ -77,14 +77,9 @@ Encima de la imagen he colocado un botón que <br>
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
 <p> 
-    #008346
+    #008346 black white 
 </p>
-<p>
-    black
-</p>
-<p>
-    white 
-</p>
+
 <h3>Tipografías</h3>
 <p>
   Texto normal -> Vintage Browner
@@ -94,9 +89,7 @@ Encima de la imagen he colocado un botón que <br>
 </p>
 
 <h3>Imágenes</h3>
-<p>
-  
-</p>
+<p> Imágenes incorporadas de la página web oficial de la NBA </p>
 <h3>Videos</h3>
 <p> Vídeo de la presentación de la temporada </p>
 <p> https://www.youtube.com/embed/YcF_SS_KSag </p>
