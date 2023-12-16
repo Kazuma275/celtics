@@ -30,13 +30,13 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="./img/cabecera.jpg" alt="imagen de la hero section" style="width:50%">
+<img src="./img/cabecera.jpg" alt="imagen de la hero section" style="width:20%">
 <p>He utilizado una imagen de fondo tomada de una aportación de un fan, tiene una buena resolución y encaja perfectamente con la temática de mi página web.<br>
 Encima de la imagen he colocado un botón que <br>
 (una breve explicación)</p>
 
 <h3>Introducción</h3>
-<img src="./img/accordion.PNG" alt="imagen del accordion" style="width:50%"> <img src="./img/celtics.png" alt="imagen del escudo" style="width:50%">
+<img src="./img/accordion.PNG" alt="imagen del accordion" style="width:20%"> <img src="./img/celtics.png" alt="imagen del escudo" style="width:50%">
 <p>He dispuesto en un grid de 2 columnas, en una he puesto un accordion, y en la otra la imagen del escudo del equipo.</p>
 
 <h3>Trophies</h3>
