@@ -32,8 +32,7 @@
 <h2>Hero Section</h2>
 <img src="./img/cabecera.jpg" alt="imagen de la hero section" style="width:50%">
 <p>He utilizado una imagen de fondo tomada de una aportación de un fan, tiene una buena resolución y encaja perfectamente con la temática de mi página web.<br>
-Encima de la imagen he colocado un botón que <br>
-(una breve explicación)</p>
+Encima de la imagen he colocado un botón que le lleva al usuario directamente a la página de contacto de los Boston Celtics</p>
 
 <br>
 
