@@ -99,7 +99,7 @@ Encima de la imagen he colocado un botón que <br>
 </p>
 <h3>Videos</h3>
 <p>
-  <iframe src="https://www.youtube.com/embed/YcF_SS_KSag"</iframe>
+https://www.youtube.com/embed/YcF_SS_KSag
 </p>
 ...................
 <h2 id="snippets">Code snippets</h2>
