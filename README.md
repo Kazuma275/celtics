@@ -30,8 +30,8 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="./img/cabezera.jpg" alt="imagen de hero section" style="width:50%">
-<p>He utilizado una imagen de fondo tomada de .... que se adapta fácilmente a diferentes dispositivos....<br>
+<img src="./img/cabecera.jpg" alt="imagen de hero section" style="width:50%">
+<p>He utilizado una imagen de fondo tomada de una aportación de un fan, tiene una buena resolución y encaja perfectamente con la temática de mi página web.<br>
 Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
 (una breve explicación)</p>
 
