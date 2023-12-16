@@ -15,7 +15,7 @@
 <p>Licencia: NBA</p>
 
 <h2 id="motivacion">Motivación</h2>
-<p>El tema lo he elegido porque de pequeño era muy fan de este equipo de baloncesto y creo que hacer esta página web es para hacerle un hueco en mi corazón </p>
+<p>El tema lo he elegido porque de pequeño era muy fan de este equipo de baloncesto y creo que hacer esta página web es para sentirme orgulloso de mí mismo. </p>
 
 <h2 id="estructura">Estructura</h2>
 <p>La web está dividida en  X secciones:</p>
