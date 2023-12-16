@@ -47,9 +47,7 @@ Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
 
 <h3>Footer</h3>
 <h4>Menú vertical izquierdo</h4>
-<p>En el footer he incluido un apartado de redes sociales (facebook, twitter, instagram, linkedin), los cuales al hacer click encima de sus respectivas imágenes le llevará a las redes sociales oficiales del equipo de baloncesto. </p>
-<p>Además he incluido un apartado denomidado "Site oficial" que le llevará directamente a la página web oficial.</p>
-<p>Por último he añadido un apartado de créditos que funciona con una ventana emergente (modal).</p>
+<p>En el footer he incluido un apartado de redes sociales (facebook, twitter, instagram, linkedin), los cuales al hacer click encima de sus respectivas imágenes le llevará a las redes sociales oficiales del equipo de baloncesto. Además he incluido un apartado denomidado "Site oficial" que le llevará directamente a la página web oficial. Por último he añadido un apartado de créditos que funciona con una ventana emergente (modal).</p>
 
 <h4>Menú vertical derecho</h4>
 <p>He implementado un pequeño menú vertical con todas los apartados de la página web por si es que te has quedado con más ganas de echarle un vistazo.</p>
