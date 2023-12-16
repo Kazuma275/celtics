@@ -11,8 +11,8 @@
 <h2 id="introduccion">Introducción</h2>
 <p>Trabajo realizado por: Sergio Ramos Alarcón </p>
 <p>Proyecto de web "from scratch" de 1ª evaluación de Lenguajes de Marcas</p>
-<p>Diciembre de 2023 </p>
-<p>Licencia CC-BY</p>
+<p> 16 de diciembre del 2023 </p>
+<p>Licencia: NBA</p>
 
 <h2 id="motivacion">Motivación</h2>
 <p>El tema lo he elegido porque de pequeño era muy fan de este equipo de baloncesto y creo que hacer esta página web es para hacerle un hueco en mi corazón </p>
