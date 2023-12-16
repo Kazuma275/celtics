@@ -99,7 +99,7 @@ Encima de la imagen he colocado un botón que <br>
 </p>
 <h3>Videos</h3>
 <p>
-  <iframe width="1340" height="784" src="https://www.youtube.com/embed/YcF_SS_KSag" title="Boston Celtics 2022-2023 Intro Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/YcF_SS_KSag"</iframe>
 </p>
 ...................
 <h2 id="snippets">Code snippets</h2>
