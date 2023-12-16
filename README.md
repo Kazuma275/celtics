@@ -52,12 +52,18 @@ Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
 <h3>Paleta de colores</h3>
 <p> 
     #008346
+</p>
+<p>
     black
+</p>
+<p>
     white 
 </p>
 <h3>Tipografías</h3>
 <p>
   Texto normal -> Vintage Browner
+</p>
+<p>
   Títulos      -> Net Proxima Nova Bold
 </p>
 
