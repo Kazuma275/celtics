@@ -30,20 +30,38 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="./img/cabecera.jpg" alt="imagen de hero section" style="width:50%">
+<img src="./img/cabecera.jpg" alt="imagen de la hero section" style="width:50%">
 <p>He utilizado una imagen de fondo tomada de una aportación de un fan, tiene una buena resolución y encaja perfectamente con la temática de mi página web.<br>
-Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
+Encima de la imagen he colocado un botón que <br>
 (una breve explicación)</p>
 
+<br>
+
 <h3>Introducción</h3>
-<img src="./bm-readme/intro.png" alt="imagen de hero section" style="width:50%">
-<p>He dispuesto en un grid de 2 columnas....</p>
+<img src="./img/accordion.PNG" alt="imagen del accordion" style="width:25%"> <img src="./img/celtics.png" alt="imagen del escudo" style="width:25%">
+<p>He dispuesto en un grid de 2 columnas, en una he puesto un accordion, y en la otra la imagen del escudo del equipo.</p>
 
-.......
+<br>
 
+<h3>Trophies</h3>
+<p>He añadido los trofeos más relevantes para mí del equipo en un grid de 4 columnas y dentro sus respectivas cards, con su título y su pequeña descripción</p>
 
+<br>
 
-<p>y aqui pongo <b>lo que quiera</b></p>
+<h3> Video </h3>
+<p>He añadido un vídeo de presentación del club de esta temporada. Está dentro de una card </p>
+
+<br>
+
+<h3> Coaching Staff </h3>
+<p>He hecho un apartado parecido como el de trophies. Un grid de 4 columnas y cards para cada miembro del staff</p>
+
+<br>
+
+<h3> Gallery </h3>
+<p>He añadido una galería mediante uso de clases y a estes le he añadido la propiedad flex.</p>
+
+<br>
 
 <h3>Footer</h3>
 <h4>Menú vertical izquierdo</h4>
