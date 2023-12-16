@@ -98,10 +98,9 @@ Encima de la imagen he colocado un botón que <br>
   
 </p>
 <h3>Videos</h3>
-<p>
-https://www.youtube.com/embed/YcF_SS_KSag
-</p>
-...................
+<p> Vídeo de la presentación de la temporada </p>
+<p> https://www.youtube.com/embed/YcF_SS_KSag </p>
+
 <h2 id="snippets">Code snippets</h2>
 <p>He utilizado los siguientes:</p>
 <ul>
