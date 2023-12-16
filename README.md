@@ -88,6 +88,6 @@ Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
 <p>He utilizado los siguientes:</p>
 <ul>
   <li>Barra de navegación: tomada de w3Schools "How to" https://www.w3schools.com/howto/howto_js_topnav.asp </li>
-  <li>Accordion: tomado de freefronted 40 + CSS Accordions https://freefrontend.com/css-accordions/ </li>
-  <li>..........</li>
+  <li>Accordion: tomado de freefronted "40 + CSS Accordions" https://freefrontend.com/css-accordions/ </li>
+  <li>Modal: tomada de w3Schools "How to" https://www.w3schools.com/howto/howto_css_modals.asp </li>
 </ul>
