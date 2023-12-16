@@ -36,7 +36,7 @@ Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
 (una breve explicación)</p>
 
 <h3>Introducción</h3>
-<img src="./bm-readme/intro.png" alt="imagen de hero section" style="width:50%">
+<img src="./bm-readme/cabecera.jpg" alt="imagen de hero section" style="width:50%">
 <p>He dispuesto en un grid de 2 columnas....</p>
 
 .......
